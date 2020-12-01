@@ -66,3 +66,14 @@ h1, h2 {
     color: white;
     text-decoration: underline;
 }
+
+.social-box {
+    background-color: white;
+    color: black;
+    padding: 6px 12px;
+    border-radius: 4px;
+}
+
+.social-box i {
+    color: black;
+}
