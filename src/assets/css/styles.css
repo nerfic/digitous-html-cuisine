@@ -56,3 +56,13 @@ h1, h2 {
 .footer-bg {
     background-color: black;
 }
+
+.footer h3, h6 {
+    font-family: 'Sansita Swashed', cursive;
+    color: white;
+}
+
+.footer a {
+    color: white;
+    text-decoration: underline;
+}
