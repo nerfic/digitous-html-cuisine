@@ -1,3 +1,7 @@
+html {
+    overflow-x: hidden;
+}
+
 body {
     background-color: white;
 }
@@ -23,6 +27,10 @@ input, textarea {
     font-family: 'Courgette', cursive;
     font-weight: bold;
 }
+
+.font-lighter {
+    font-weight: 300;
+}
 /* Header */
 
 .header-bg {
@@ -40,6 +48,15 @@ input, textarea {
     height: 70vh;
     position: relative;
 }
+
+.header-bg3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.90)), url("../img/recipes/paella/paella-header.jpg") center center;
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+    position: relative;
+}
+
 
 .brand {
     font-family: 'Courgette', cursive;
@@ -95,3 +112,46 @@ input, textarea {
 .social-box i {
     color: black;
 }
+
+/* Articles */
+
+.comment {
+    opacity:0.5;
+}
+
+/* Recipes */
+
+.time-badge {
+    padding: 10px 10px;
+    background: #bababa;
+    height: auto;
+}
+
+.ingredient-pill {
+    padding: 10px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: lighter;
+    color: #fff;
+    background-color: #6d6d6d;
+    font-size: 1em;
+}
+
+.text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: grey;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .bottom-left {
+    position: absolute;
+    bottom: 0px;
+    left: 15px;
+    padding: 5px;
+    color: white;
+    background-color: grey;
+    font-family: 'Oswald', sans-serif;
+  }
