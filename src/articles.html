@@ -8,15 +8,17 @@
   <link rel="stylesheet" href="./assets/css/bootstrap.css" />
   <link rel="stylesheet" href="./assets/css/styles.css" />
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Oswald&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Courgette&family=Oswald:wght@200;300;400;500;600;700&display=swap"
+    rel="stylesheet">
   <script src="https://kit.fontawesome.com/d0e70cde13.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
-  <div class="header-bg">
+  <div class="header-bg4">
     <header>
-      <nav class="navbar navbar-expand-lg navbar-dark border-bottom">
+      <nav class="navbar navbar-expand-lg navbar-dark border-bottom transparent-black">
         <a class="navbar-brand brand" href="#">
           <h1>Cui'zine</h1>
         </a>
@@ -46,10 +48,8 @@
 
     <div class="container mt-5">
       <div class="row justify-content-around">
-        <div class="col-6 text-center">
-          <img src="assets/img/logo_square_white.png">
-          <h1>Cui'zine</h1>
-          <h2>Le mag cuisine</h2>
+        <div class="col-12 mt-5 text-center">
+          <h2 class="header-title pl-0">Chez suzette, la nouvelle crêperie qui fait parler d'elle</h2>
         </div>
       </div>
     </div>
@@ -65,9 +65,15 @@
           <div class="row mt-5">
             <div class="col-12">
               <h3 class="text-dark font-weight-bold">Intro</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque blandit fermentum arcu, eu mattis
-                nisi malesuada ut. Fusce tristique mattis augue sit amet aliquet. Mauris suscipit leo a lorem volutpat
-                dictum.</p>
+              <div class="d-flex justify-content-center align-items-center">
+                <span class="display-4">L</span>
+                <p class="mb-0">orem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque blandit fermentum
+                  arcu, eu
+                  mattis
+                  nisi malesuada ut. Fusce tristique mattis augue sit amet aliquet. Mauris suscipit leo a lorem volutpat
+                  dictum.</p>
+              </div>
+
             </div>
 
             <div class="col-12 mt-3">
@@ -94,32 +100,38 @@
             </div>
 
           </div>
-          <div class="row mt-5">
-            <div class="col-6">
-              <img style="width: 30%" class="rounded-circle" src="assets/img/team/antoine.jpg">
-            </div>
-            <div class="col-6">
-              <h3 class="text-dark font-weight-bold">A propos de l'auteur</h3>
-              <p>Aliqua mollit magna cillum dolore proident veniam eu.</p>
+          <hr>
+          <div class="row">
+            <div class="col-12 d-flex align-items-center justify-content-center">
+              <img class="rounded-circle img-fluid img-responsive w-25 mr-3" src="assets/img/team/antoine.jpg">
+              <div>
+                <h3 class="text-dark font-weight-bold">A propos de l'auteur</h3>
+                <p>Aliqua mollit magna cillum dolore proident veniam eu.</p>
+              </div>
             </div>
           </div>
+          <hr>
 
-          <form class="mt-5 w-50">
-            <div class="form-group">
-              <label class="font-courgette">Email</label>
-              <input type="email" class="form-control" placeholder="Votre email...">
-            </div>
+          <div class="row">
+            <div class="col-12 d-flex justify-content-around">
+              <form class="mt-5 w-50">
+                <div class="form-group">
+                  <label class="font-courgette">Email</label>
+                  <input type="email" class="form-control" placeholder="Votre email...">
+                </div>
 
-            <div class="form-group">
-              <label class="font-courgette">Nom</label>
-              <input type="text" class="form-control" placeholder="Votre nom...">
-            </div>
+                <div class="form-group">
+                  <label class="font-courgette">Nom</label>
+                  <input type="text" class="form-control" placeholder="Votre nom...">
+                </div>
 
-            <div class="form-group">
-              <label class="font-courgette">Commentaire</label>
-              <textarea class="form-control" rows="4" placeholder="Votre commentaire..."></textarea>
+                <div class="form-group">
+                  <label class="font-courgette">Commentaire</label>
+                  <textarea class="form-control" rows="4" placeholder="Votre commentaire..."></textarea>
+                </div>
+              </form>
             </div>
-          </form>
+          </div>
 
           <div class="row mt-5">
             <div class="col-12">
@@ -144,7 +156,7 @@
               <img class="w-75 img-circle img-responsive" src="assets/img/logo_square_black.png">
             </div>
             <div class="col-10">
-              <h4>Mathieu</h4>
+              <h4>Suzette</h4>
               <p>Occaecat consectetur quis eiusmod ut exercitation quis incididunt pariatur do est dolor cupidatat ad.
                 Occaecat consectetur quis eiusmod ut exercitation quis incididunt pariatur do est dolor cupidatat ad.
               </p>
@@ -156,7 +168,7 @@
               <img class="w-75 img-circle img-responsive comment" src="assets/img/logo_square_black.png">
             </div>
             <div class="col-10">
-              <h4>Mathieu</h4>
+              <h4>Haters</h4>
               <p>Occaecat consectetur quis eiusmod ut exercitation quis.
               </p>
             </div>
