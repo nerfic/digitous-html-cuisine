@@ -98,6 +98,10 @@ input, textarea {
     color: black;
 }
 
+.lien-decoration:hover {
+    color: grey;
+}
+
 /* Footer */
 
 .footer-bg {
