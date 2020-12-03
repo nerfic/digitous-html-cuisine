@@ -162,7 +162,7 @@ input, textarea {
     padding-right: 20px;
   }
 
-  .bottom-left {
+.bottom-left {
     position: absolute;
     bottom: 0px;
     left: 15px;
@@ -171,3 +171,8 @@ input, textarea {
     background-color: grey;
     font-family: 'Oswald', sans-serif;
   }
+
+.grande-lettre {  
+    font-size: 55px;     
+    line-height: 70px; 
+}
